@@ -1,0 +1,25 @@
+{
+  "name": "@itwonders-web/vuejs-search-mixin",
+  "version": "1.0.0",
+  "description": "Vuejs Search and filter mixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITWonders/vuejs-search-mixin.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue.js",
+    "search",
+    "filter"
+  ],
+  "author": "Ken Ng <kenng@itwonders-design.com> (https://itwonders-design.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITWonders/vuejs-search-mixin/issues"
+  },
+  "homepage": "https://github.com/ITWonders/vuejs-search-mixin#readme"
+}

@@ -44,12 +44,16 @@ export default {
     },
     methods: {
         setSearchableData: function (resData) {
-            this.mydata = resData
-            this.filteredResult = resData
+            if (!Array.isArray(resData)) {
+                this.mydata = Object.values(resData)
+            } else {
+                this.mydata = resData
+            }
+            this.filteredResult = this.mydata
         },
         filterResult: function () {
             // console.log("new search: " + this.searchInput)
-            if (!this.searchInput) {
+            if (!this.searchInput || !this.mydata) {
                 this.filteredResult = this.mydata
                 return 
             }
